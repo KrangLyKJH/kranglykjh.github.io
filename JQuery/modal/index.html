@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div class="modal" >
+			<div class="modal-overlay">
+				<div class="modal-wrapper">
+					<div class="modal-header">
+						<h3>Quà Giáng Sinh</h3>
+						<button class="x">x</button>
+					</div>
+					<div class="modal-body">						
+						<div class="modal-content">							
+							<p>Tạo nút Modal bằng JQuery</p>
+							<img class="img" src="giangsinh2.jpg" alt="Quà giáng sinh">	
+						</div>						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="close">close</button>
+					</div>
+					<div class="modal-nhan">
+						<button type="button" class="nhan">Nhận</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="show">Show modal</button>
+		<script src="jquery-3.5.1.min.js"></script>
+		<script>
+			$(".show").click(function(e){
+				e.preventDefault();
+				$(".modal").toggleClass("isvisible");
+			});	
+			$(".close").click(function(){
+				$(".modal").removeClass("isvisible");
+			});
+			$(".x").click(function(){
+				$(".modal").removeClass("isvisible");
+			});
+			$(".nhan").click(function(e){
+				e.preventDefault();
+				$(".modal").removeClass("isvisible");	
+			});	
+		</script>
+	</body>
+</html>
