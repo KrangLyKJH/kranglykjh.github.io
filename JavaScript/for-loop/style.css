@@ -1,0 +1,20 @@
+body{
+	background:url('sky.jpg');
+}
+.bold-text{
+	font-size:2em;
+	font-weight:bold;
+	color:purple;
+	background:rgba(0,0,0,0.2);
+	display:inline;
+}
+.text{
+	color:#fff;
+	font-size:20px;
+}
+.clickme{
+	padding:5px 7px;
+	background:#4a4;
+	color:#e21;
+	font-size:25px;
+}

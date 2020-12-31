@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>For function %3</title>
+	</head>
+	<body>
+		<button onclick="clickFunction()" class="clickme">Click me please</button>
+		<ul id="showlist"></ul>
+		<script>
+	<!-- Viet mot function cho nguoi dung nhap cac so trong 1 khoang gia tri,-->
+	<!--sau do in ra list voi cac so chia het cho 3 se in đậm màu Tím -->
+			function listValue(start,end){
+				var text="";
+				for(var i=start;i<=end;i++){
+					if(i%3==0)
+					{
+						text+="<li class='bold-text'>"+i+"</li>";
+					}
+					else 
+					{
+						text+="<li class='text'>"+i+"</li>";
+					}	
+				}
+					return text;
+			}		
+			document.getElementById("showlist").innerHTML = listValue(1,300);
+			function clickFunction(){
+				myNodelist = document.querySelectorAll("ul");
+				var i;
+				for (i=0; i<myNodelist.length;i++){
+					myNodelist[i%3].style.background ="url('sky2.jpg')";
+				}
+			}
+		</script>
+	</body>
+</html>			
