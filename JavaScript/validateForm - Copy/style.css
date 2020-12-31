@@ -1,0 +1,47 @@
+body{
+	background:url('music1.gif');
+}
+form{
+	text-align:center;
+	margin-top:70px;
+	color:white;
+}
+label{
+	font-weight:bold;
+	padding:5px;
+}
+input{
+	border:2px solid #f3a;
+	padding:5px;
+	margin:10px 0;
+}
+#name{
+	margin-left:25px;
+}
+#age{
+	margin-left:40px;
+}
+#email{
+	margin-left:25px;
+}
+#pass{
+	margin-left:0px;
+}
+#sub{
+	color:#af2;
+	padding:5px 10px;
+	background:#a3d;
+	font-size:1.2em;
+	font-weight:bold;
+	border-radius:5px;
+}
+#img{
+	position:absolute;
+	top:10%;
+	left:10%;
+	height:200px;
+	wight:200px;
+}
+/* #gender{ */
+	/* margin-left:25px; */
+/* } */
