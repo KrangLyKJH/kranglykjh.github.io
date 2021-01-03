@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:wght@100&family=Titillium+Web:wght@600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:wght@100;400&family=Titillium+Web:wght@600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>main</title>
+	</head>
+	<body>
+		<!-- start header -->
+		<header>
+			<div class="top-header container">
+				<div class="row justify-content-between">								
+					<!-- search -->
+					<div class="col-xl-5 col-md-5 row search">	
+						<form class="form-inline">
+							<button type="submit" class="btn btn-light"><i class="fas fa-search"></i></button>
+							<input class="form-control l-search" type="text" placeholder="SEARCH">	
+						</form>
+					</div>	
+					<!-- shop -->
+					<div class="col-xl-2 col-md-2 row justify-content-center shopwatch">
+						<a href="#">
+							<img class="logowatch" src="img/logowatch.png" alt="logo-Watch">
+						</a>
+					</div>
+					<!-- icons -->
+					<div class="col-xl-5 col-md-5 row flex-row-reverse">
+						<div class="dropdown">			 
+							<a class="icon-link iconadress" data-toggle="dropdown" href="#"><i class="fas fa-align-right"></i></a>						  
+						  <div class="dropdown-menu">
+							<a class="dropdown-item disabled" href="#">Language</a>
+							<a class="dropdown-item active" href="#watchman">English</a>
+							<a class="dropdown-item" href="#">Tiếng Việt</a>
+						  </div>										
+						</div>										
+						<div id="cart" class="cart" data-totalitems="0">
+							<button type="button" class="btn" data-toggle="dropdown">
+								<i class="fas fa-shopping-cart"></i>
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item disabled" href="#">Cart brawer</a>
+								<a class="dropdown-item active" href="#s">Login</a>
+								<a class="dropdown-item" href="#">Sign Out</a>
+							</div>				
+						</div>											
+						<div class="dropdown">			 
+							<a class="icon-link iconadress"  data-toggle="dropdown" href="#"><i class="fas fa-user-circle"></i></a>						  
+						  <div class="dropdown-menu">
+							<a class="dropdown-item disabled" href="#">Customer</a>
+							<a class="dropdown-item active" href="#istar">Your name</a>
+							<a class="dropdown-item" href="#">your mail</a>
+							<a class="dropdown-item" href="#">your phone</a>
+						  </div>										
+						</div>
+					</div>											
+				</div>
+			</div>
+				<!-- dropdown-menu -->
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="col row justify-content-center bottom-header">					
+						<div class="dropdown">
+						  <button type="button" class="bar-header btn btn-light" data-toggle="dropdown">
+							HOME
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item active" href="#">WATCH</a>
+						  </div>
+						</div>
+						<div class="dropdown">
+						  <button type="button" class="bar-header btn btn-light" data-toggle="dropdown">
+							SHOP
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item" href="#watchman">Watch Man</a>
+							<a class="dropdown-item" href="#newsale">Watch Woman</a>
+							<a class="dropdown-item" href="#hotsale">Watch Double</a>
+						  </div>
+						</div>
+						<div class="dropdown">
+						  <button type="button" class="bar-header btn btn-light dropdown-toggle" data-toggle="dropdown">
+							ELEMENT
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item" href="#logowatch">Shoes</a>
+							<a class="dropdown-item" href="#glass">Glasses</a>
+							<a class="dropdown-item" href="#">Modle</a>
+						  </div>
+						</div>
+						<div class="dropdown">
+						  <button type="button" class="bar-header btn btn-light" data-toggle="dropdown">
+							PAGES
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item active" href="#">1</a>
+							<a class="dropdown-item" href="#">2</a>
+							<a class="dropdown-item" href="#">3</a>
+						  </div>
+						</div>			
+						<div class="dropdown">
+						  <button type="button" class="bar-header btn btn-light" data-toggle="dropdown">
+							PORTFOLIO
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Include</a>
+							<a class="dropdown-item" href="#logowatch">Information</a>
+							<a class="dropdown-item" href="#">FAST</a>
+						  </div>
+						</div>
+						<div class="dropdown">
+						  <button type="button" class="bar-header btn btn-light" data-toggle="dropdown">
+							BLOGS
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Programe</a>
+							<a class="dropdown-item" href="#">content</a>
+						  </div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End header -->
+		<!-- start section sky-->
+		<section>
+			<!-- start SKY PLANTER -->
+			<div class="container-fluid skyplanter">				
+				<div id="sky" class="row carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ul class="carousel-indicators">
+						<li data-target="#sky" data-slide-to="0" class="active"></li>
+						<li data-target="#sky" data-slide-to="1"></li>
+						<li data-target="#sky" data-slide-to="2"></li>
+						<li data-target="#sky" data-slide-to="3"></li>
+						<li data-target="#sky" data-slide-to="4"></li>
+					  </ul>				  
+					  <!-- The slideshow -->
+					  <div class="col-xl-12 row carousel-inner">
+						<div class="carousel-item active">
+						  <img src="img/bg-dh.jpg" class="sky col-xl-12" alt="watch">
+						</div>
+						<div class="carousel-item">
+						  <img src="img/bg-dh7.jpg" class="sky col-xl-12" alt="watch">
+						</div>
+						<div class="carousel-item">
+						  <img src="img/bg-dh6.jpg" class="sky col-xl-12" alt="watch">
+						</div>
+						<div class="carousel-item">
+						  <img src="img/bg-mk2.jpg" class="sky col-xl-12" alt="mat kinh">
+						</div>
+						<div class="carousel-item">
+						  <img src="img/bg-mk.jpg" class="sky col-xl-12" alt="mat kinh">
+						</div>				 
+					 </div>					  
+					  <!-- Left and right controls -->
+					  <a class="carousel-control-prev" href="#sky" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#sky" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					  </a>
+				</div>
+				<div class="caro-title centered">
+						<h3 class="new">New <span class="arrivals">ARRIVALS</span></h3>
+						<h1>SKY PLANTER<sup class="middle">$18t</sup></h1>
+						<a class="shopnow" href="#">SHOP NOW</a>
+				</div>		
+			</div>
+			<!-- End SKY PLANTER -->
+		</section>	
+		<!-- End section sky -->
+		<!-- start section shop-->
+		<section class="shop-tab">
+			<div class="container">	
+				<div class="row">
+					<!-- tab-bar -->
+					<ul class="nav nav-tabs col-xl-8 col-sm-8">
+						<li class="tab-hotnew active btn-light"><a data-toggle="tab" href="#home">Home</a></li>
+						<li class="tab-hotnew btn-info"><a class="hotnew-a" data-toggle="tab" href="#newsale">NEW</a></li>
+						<li class="tab-hotnew btn-info"><a class="hotnew-a" data-toggle="tab" href="#hotsale">HOT</a></li>
+						<li class="tab-hotnew btn-info"><a class="hotnew-a" data-toggle="tab" href="#all">ALL</a></li>
+					</ul>			
+					<div class="col-xl-4 col-sm-4">
+						<form class="form-inline flex-row-reverse">
+							<button type="submit" class="btn btn-light">
+								<i class="fas fa-search"></i>
+							</button>
+							<input class="form-control r-search" type="text" placeholder="SEARCH">	
+						</form>
+					</div>			
+				</div>
+					<!-- tab-content --> 
+				<div class="tab-content">
+					<div id="home" class="tab-pane fade in active">
+						<a class="nav-tabs disabled" href="#">HOME</a>
+						<p><a href="#shopping">shopping</a></p>
+					</div>
+					<div id="newsale" class="tab-pane fade">					
+						<p><a href="#hotsale">Hot</a></p>
+						<p><a href="#newsale">All</a></p>
+					</div>
+					<div id="hotsale" class="tab-pane fade">
+						<p><a href="#glass">New</a></p>
+						<p><a href="#all">ALL</a></p>
+					</div>
+				</div>
+			</div>	
+					<!-- start shopping  -->
+			<div class="container">	
+				<div class="row shopping" id="alls">				
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/wf1.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/wf1.jpg" alt="watch">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal2">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/wf2.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/wf2.jpg" alt="watch">
+							<img class="hotsale" src="img/hot.jpg" alt="hotsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal3">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/wf3.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/wf3.jpg" alt="watch">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal4">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/wf4.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/wf4.jpg" alt="watch">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal5">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/watch1.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/watch1.jpg" alt="watch">
+							<img class="hotsale" src="img/hot.jpg" alt="hotsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal6">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/watch2.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/watch2.jpg" alt="watch" id="watchman">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal7">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal7">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/watch3.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/watch3.jpg" alt="watch">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal8">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal8">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/watch4.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/watch4.jpg" alt="watch">
+							<img class="hotsale" src="img/hot.jpg" alt="hotsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal9">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal9">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/mk1.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/mk1.jpg" alt="watch" id="glass">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal10">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal10">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/mk2.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/mk2.jpg" alt="watch">
+							<img class="hotsale" src="img/hot.jpg" alt="hotsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal11">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal11">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/mk3.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/mk3.jpg" alt="watch">
+							<img class="newsale" src="img/new.jpg" alt="newsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+					<div class="shop-buy col-xl-4 col-sm-6 row">
+						<div class="col-xl-2 col-sm-2">
+							<!-- button modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal12">
+								<i class="fas fa-align-right"></i> 
+							</button>
+							<!-- The Modal -->
+							<div class="modal" id="myModal12">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title"><img src="img/shopx.png" alt="logo-Shopx"></h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<!-- Modal body -->
+									<div class="modal-body row">
+										<div class="col-xl-6">
+											<img class="img-sale" src="img/mk4.jpg" alt="watch">
+											<p class="title-o pt-4">Lava Vtase</p>									
+											<p class="number"><del>$65.00</del> <span class="hover-o">$35.00</span><p>																				
+										</div>
+										<div class="col-xl-6">
+											<ul class="text-justify">
+												<li>High quality japanese quartz movement with analog display, provide precise time keeping
+													Luxury & simple design, week with auto date
+												</li>
+												<li>Waterproof:99FT / 30M Normal Water Resistant. Withstands wash hand , 
+													rain and splashes of water, but do not showering, diving, snorkeling or water-related work
+												</li>									
+											</ul>																				
+											<hr>
+											<button type="button" class="btn btn-warning">
+												By Now
+												<span class="cart-item"></span>
+											</button>
+											<button type="button" class="btn add-cart">
+												Add to Cart
+												<span class="cart-item"></span>
+											</button>
+										</div>		  
+									</div>
+								  <!-- Modal footer -->
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<a class="nav-link vertical" href="#">
+								<i class="far fa-heart"></i>
+							</a>
+							<a class="nav-link vertical" href="#">
+								<i class="fas fa-bars"></i>
+							</a>	
+						</div>
+						<div class="col-xl-9 col-sm-9">
+							<img class="img-sale" src="img/mk4.jpg" alt="watch">
+							<img class="hotsale" src="img/hot.jpg" alt="hotsale">
+							<div class="col-md-2"></div>
+							<div class="col-md-10">
+								<p class="title-o pt-4">Lava Vtase</p>
+								<div class="number d-flex py-1">
+									<p class="mr-2 thr-o">$65.00<p>
+									<p class="hover-o">$35.00</p>
+								</div>
+							<hr>
+								<div class="page-wrapper">
+								  <button class="addtocart">
+									Add to Cart
+									<span class="cart-item"></span>
+								  </button>
+								</div>
+							</div>
+						</div>	
+						<div class="col-xl-1 col-sm-1"></div>
+					</div>
+				</div>		
+			</div>			
+				<!-- End shopping  -->									
+		</section>
+		<!-- End section shop-->	
+			<!-- start four -->
+			<div class="four">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-2 col-sm-2"></div>
+						<div class="col-xl-4 col-sm-3">
+							<div class="four-a">
+								<div class="four-aa"><del>$65.00</del></div>
+								<div class="four-ab">$35.00</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-sm-4">
+							<img class="layer-aa" src="img/bg-whitenot.jpg" alt="layer">
+							<div class="layer-a">	
+								<div class="text-a">Welcome</div>
+								<div class="text-b">
+									<div class="text-ba">Featured</div>
+									<img class="layer-b" src="img/bg-mk1.jpg" alt="fox">
+									<div class="text-bb">
+										<div class="text-bba">Mission</div>
+										<p class="text-bbb">Core values</p>
+										<p class="text-bbc">
+											Help customers with style, beautiful and more confident.
+											<br>Building a strong Vietnamese brand.
+											<br>Create many jobs for Vietnamese.
+											
+										</p>
+										<a class="text-bbd" href="#" title="now">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<!-- start woodstand -->
+				<div class="row woodstand">
+					<div class="col-xl-3 col-sm-3 row icon-special">
+						<i class="fas fa-truck icon-o"></i>
+						<p class="text-c">FAST DELIVERY</p>
+						<p class="text-d">Same day delivery as soon as possible</p>
+					</div>
+					<div class="col-xl-3 col-sm-3 row icon-special">
+						<i class="fas fa-tags icon-o"></i>
+						<p class="text-c">SPECIAL DISCOUNT</p>
+						<p class="text-d">Get attractive offers day by day</p>
+					</div>
+					<div class="col-xl-3 col-sm-3 row icon-special">
+						<i class="fas fa-lock-open icon-o"></i>
+						<p class="text-c">SECURE CHECKOUT</p>
+						<p class="text-d">Fully secured SSL checkout technology</p>
+					</div>
+					<div class="col-xl-3 col-sm-3 row icon-special">
+						<i class="fas fa-coins icon-o"></i>
+						<p class="text-c">MONEY RETURNS</p>
+						<p class="text-d">100% Money back guarntee</p>
+					</div>
+				</div>
+			</div>
+		<!-- End woodstand -->
+		<!-- start useful link -->
+		<section class="useful-link">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-sm-3 row left-ufl">
+						<img id="logowatch" src="img/logowatch.png" alt="watch"><br><br>						
+						<p>Watson Website Builder is a big library of pre-designed web elements which help you create website in few minutes.<br><br><br><a href="#">Read more. ->></a></p>			
+					</div>
+					<div class="col-xl-4 col-sm-6 row">				
+						<div class="col-xl-12">
+							<h3>Useful Link</h3><br><br>
+						</div>
+						<div class="col-xl-6 col-sm-6">
+							<ul style="list-style-type:square">
+								<li class="list-i"><a class="useful-content" href="#">Our Brands</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Special Offers</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Help Topics</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Delivery Information</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Social Media</a></li>
+							</ul>
+						</div>
+						<div class="col-xl-6 col-sm-6">
+							<ul style="list-style-type:square">	
+								<li class="list-i"><a class="useful-content" href="#">Gift Vouchers</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Latest Jobs</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Terms & Conditions</a></li>
+								<li class="list-i"><a class="useful-content" href="#">Affiliates</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-4 col-sm-3 row right-ufl">
+						<div class="col-xl-12" id="istar">
+							<h3><i class="fab fa-instagram"></i>Instagram</h3><br>
+						</div>					
+							<ul class="d-flex">						
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/wf2.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/fb.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/bg-mk1.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/tik.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+							</ul>
+							<ul class="d-flex">						
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/bg-dh2.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/bg-mk2.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/instar.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+								<li class="istargram col-xl-3">
+									<a href="#">
+									<img src="img/bg-dh5.jpg" alt="watch" width="100" height="100">
+									</a>
+								</li>
+							</ul>
+					</div>																			
+				</div>
+			</div>
+		</section>
+		<!-- end useful link -->
+		<!-- start footer -->
+		<footer>
+			<div class="container footer">								
+				<p id="ad-c">© 2012-2022 themexpert Inc. All rights reserved.</p>						
+				<img id="ad-shopx" src="img/address-shopx.jpg" alt="shopx">							
+			</div>
+		</footer>
+		<!-- End footer -->
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
