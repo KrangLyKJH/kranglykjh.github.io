@@ -17,15 +17,15 @@
 				<div class="row justify-content-between">								
 					<!-- search -->
 					<div class="col-xl-5 col-md-5 row search">	
+						<span id="clock"></span>
 						<form class="form-inline">
 							<button type="submit" class="btn btn-light"><i class="fas fa-search"></i></button>
 							<input class="form-control l-search" type="text" placeholder="SEARCH">	
 						</form>
 					</div>	
 					<!-- shop -->
-					<div class="col-xl-2 col-md-2 row justify-content-center shopwatch">
-						<a href="#">
-							<img class="logowatch" src="img/logowatch.png" alt="logo-Watch">
+					<div class="col-xl-2 col-md-2 row justify-content-center shopwatch">							
+							<img class="logowatch" src="img/logowatch.png" alt="logo-Watch" onclick="document.getElementById('clock').innerHTML = Date()">	
 						</a>
 					</div>
 					<!-- icons -->
@@ -179,13 +179,13 @@
 			<div class="container">	
 				<div class="row">
 					<!-- tab-bar -->
-					<ul class="nav nav-tabs col-xl-8 col-sm-8">
+					<ul class="nav nav-tabs col-xl-8 col-md-8 col-sm-8">
 						<li class="tab-hotnew active btn-light"><a data-toggle="tab" href="#home">Home</a></li>
 						<li class="tab-hotnew btn-info"><a class="hotnew-a" data-toggle="tab" href="#newsale">NEW</a></li>
 						<li class="tab-hotnew btn-info"><a class="hotnew-a" data-toggle="tab" href="#hotsale">HOT</a></li>
 						<li class="tab-hotnew btn-info"><a class="hotnew-a" data-toggle="tab" href="#all">ALL</a></li>
 					</ul>			
-					<div class="col-xl-4 col-sm-4">
+					<div class="col-xl-4 col-md-8 col-sm-4">
 						<form class="form-inline flex-row-reverse">
 							<button type="submit" class="btn btn-light">
 								<i class="fas fa-search"></i>
@@ -212,8 +212,8 @@
 			</div>	
 					<!-- start shopping  -->
 			<div class="container">	
-				<div class="row shopping" id="alls">				
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+				<div class="row shopping" id="all">				
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
@@ -290,7 +290,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
@@ -367,7 +367,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
@@ -444,7 +444,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
@@ -521,7 +521,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">
@@ -598,7 +598,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">
@@ -675,7 +675,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal7">
@@ -752,7 +752,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal8">
@@ -829,7 +829,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal9">
@@ -906,7 +906,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal10">
@@ -983,7 +983,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal11">
@@ -1060,7 +1060,7 @@
 						</div>	
 						<div class="col-xl-1 col-sm-1"></div>
 					</div>
-					<div class="shop-buy col-xl-4 col-sm-6 row">
+					<div class="shop-buy col-xl-4 col-lg-4 col-sm-6 row">
 						<div class="col-xl-2 col-sm-2">
 							<!-- button modal -->
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal12">
