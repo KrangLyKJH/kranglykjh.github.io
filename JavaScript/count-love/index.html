@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">	
+		<title>Count-Kí tự</title>
+		<style>
+			body{
+				background:url('sun.jpg');
+			}
+			#count{
+				font-weight:bold;
+				color:#f2a;
+				font-size:30px;
+			}
+			#input{
+				color:#fff;
+				padding:4px;
+				font-style:italic;
+				background:rgba(32,53,122,0.9);
+				font-size:1.2em;
+				width:100%;
+			}
+			#submit{
+				font-weight:bold;
+				font-size:1.4em;
+				background:#a23;
+			}
+			.align{
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- đếm cac ky tu trong form -->
+		<div class="align">
+			<h3 id="count">0</h3>
+			<p style="color:red;"><b>Tình Yêu</b></p>
+		</div>
+		<form>
+			<textarea id="input" onkeyup="countWord()"></textarea>			
+		</form>
+		<!-- start submit -->
+		<form onsubmit="getSubmit()" class="align">			
+			<input type="submit" id="submit">			
+		</form>
+		<!-- end submit -->
+		<script>
+		// khi viet se đếm cac ky tu 
+			function countWord(){
+				var input=document.getElementById("input").value;
+				count=input.split(" ").length;
+				document.getElementById("count").innerHTML=count;	
+			}
+			// submit
+			function getSubmit(){
+				alert("Nhập Kí Tự trong đoạn văn");
+			}
+		</script>
+	</body>
+</html>
