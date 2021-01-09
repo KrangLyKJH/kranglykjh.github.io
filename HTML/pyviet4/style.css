@@ -17,7 +17,6 @@
 }
 .dddd{
 	list-style-type:none;
-	padding-left:20px;
 }
 .dddd li:hover{
 	background:#33ccff;
@@ -112,11 +111,11 @@
 .content-link{
 	padding-top:15px;
 	display:none;
-	left:-140px;
+	left:-160px;
 	position:absolute;
 	min-width:400px;
-	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index:1;
+	box-shadow: rgba(0,0,0,0.2);
+	z-index:2;
 }
 .content-link a{
 	text-decoration:none;
