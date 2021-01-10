@@ -15,12 +15,12 @@
 	position:relative;	
 }
 .dddd{
-	font-size:12px;
 	padding:2px 2px;
 	list-style-type:none;
 	border-radius:5px;
 }
 .dddd li:hover{
+	font-size:12px;
 	display:block;
 	width:100%;
 	background:#33ccff;
