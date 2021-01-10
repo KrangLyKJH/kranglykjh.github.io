@@ -16,9 +16,12 @@
 	position:relative;	
 }
 .dddd{
+	border:radius;
 	list-style-type:none;
 }
 .dddd li:hover{
+	color:white;
+	display:block;
 	background:#33ccff;
 }
 .size-sr{
