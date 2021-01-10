@@ -19,6 +19,7 @@
 	list-style-type:none;
 }
 .dddd li:hover{
+	width:100%;
 	background:#33ccff;
 }
 .size-sr{
