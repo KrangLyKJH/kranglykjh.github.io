@@ -10,12 +10,12 @@
 #logo{
 	width:40px;
 	height:40px;
-	font-family: 'Source Code Pro' , monospace;
 }
 #collapsibleNavbar{
 	position:relative;	
 }
 .dddd{
+	font-size:0.8em;
 	padding:2px 2px;
 	list-style-type:none;
 	border-radius:5px;
