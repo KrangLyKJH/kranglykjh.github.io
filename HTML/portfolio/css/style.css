@@ -582,6 +582,22 @@ img{
     color: var(--first-color-light);
 }
 /* ===== MEDIA QUERIES ===== */
+@media screen and (min-width: 360px){
+    .home__img img{
+        width: 220px;
+    }
+
+    .about__container, 
+    .qualification__container, 
+    .services__container, 
+    .portfolio__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contact__form{
+        width: 300px;
+        justify-self: center;
+    }
+}
 @media screen and (min-width: 576px){
     .home__img img{
         width: 330px;
